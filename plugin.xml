@@ -18,8 +18,8 @@
 
     <license>MIT</license>
 
-    <js-module src="www/clipboard.js" name="Clipboard">
-        <clobbers target="cordova.plugins.clipboard" />
+    <js-module name="Clipboard" src="www/clipboard.js">
+        <clobbers target="CordovaPluginClipboard" />
     </js-module>
 
     <!-- iOS -->
